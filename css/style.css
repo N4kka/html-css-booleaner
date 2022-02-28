@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* header */
 header {
     height: 80px;
     background-image: url(../img/pattern.png);
@@ -16,3 +17,47 @@ header {
     width: 150px;
     line-height: 120px;
 }
+
+/* main */
+.container{
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+h1{
+    font-size: 58px;
+}
+
+.autore{
+    font-size: 24px;
+    color: gray;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.immagini{
+    margin-top: 20px;
+}
+
+p span{
+    background-color: yellow;
+}
+
+/* table */
+table{
+    border: 1px solid;
+    border-collapse:collapse ;
+    text-align: center;
+    padding: 50px;
+}
+thead{
+    background-color: deepskyblue;
+}
+
+.riga{
+    background-color: skyblue;
+}
+
